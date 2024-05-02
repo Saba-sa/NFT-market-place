@@ -1,0 +1,71 @@
+.header {
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 111;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nav_list {
+  display: flex;
+  align-items: center;
+  column-gap: 2.7rem;
+  font-size: 1.1rem;
+}
+.nav_item a {
+  text-decoration: none;
+  color: white;
+}
+.nav_item a:hover {
+  cursor: pointer;
+  color: white;
+  opacity: 80%;
+}
+.logo h2 {
+  background: linear-gradient(-45deg, #e250e5, #4b50e6, #e250e5, #4b50e6);
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  -webkit-text-fill-color: #14141f;
+}
+.logo h2 span {
+  -webkit-text-fill-color: #c3c3cb;
+}
+.nav_right .btn {
+  padding: 7px 25px;
+  border: 1px solid #5142fc;
+  border-radius: 50px;
+  font-size: 0.8rem;
+}
+.nav_right .btn link {
+  color: white;
+}
+.mobile_menu {
+  color: white;
+  font-size: 1.3rem;
+  cursor: pointer;
+  display: none;
+}
+.active {
+  color: #887dfe !important;
+}
+.btn a {
+  background: transparent;
+  color: white;
+}
+.btn:hover a {
+  color: #4b50e6;
+}
+.btn:hover i {
+  background: white !important;
+  fill: #4b50e6 !important;
+  color: #4b50e6;
+}

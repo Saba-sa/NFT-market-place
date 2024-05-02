@@ -1,0 +1,12 @@
+.card-section {
+  margin-top: 10px;
+  background: transparent !important;
+  /* flex-direction: row !important; */
+}
+.seller-detail {
+  background: transparent !important;
+  color: white;
+}
+.text {
+  color: white;
+}

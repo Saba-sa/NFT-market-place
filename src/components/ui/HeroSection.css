@@ -1,0 +1,41 @@
+.hero-section {
+  margin-top: 120px;
+}
+.hero-section h2 {
+  line-height: 55px;
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+.hero-section h2 span {
+  background: linear-gradient(-45deg, #e250e5, #4b50e6, #e250e5, #4b50e6);
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-stroke: 3px transparent;
+  -webkit-text-fill-color: #14141f;
+  margin-left: 7px;
+  display: inline-block;
+}
+.hero-btns {
+  margin-top: 30px;
+}
+.hero-btns button {
+  border: none;
+  outline: none;
+  padding: 7px 25px;
+  border-radius: 50px;
+  border: 1px solid #5142fc;
+  font-size: 0.9rem;
+  background: transparent;
+}
+.hero-btns button a {
+  text-decoration: none;
+  color: white;
+}
+.hero-img {
+  width: 500px;
+  margin-left: auto;
+}
+.hero-img img {
+  border-radius: 7px;
+}

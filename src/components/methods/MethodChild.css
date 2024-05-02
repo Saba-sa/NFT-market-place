@@ -1,0 +1,12 @@
+.single-step-section {
+  background: #343444;
+}
+.single-step-section .icon {
+  background: #5142fc;
+  padding: 10px 15px;
+  font-size: 25px;
+  border-radius: 5px;
+}
+.steps-container {
+  margin-top: 120px;
+}

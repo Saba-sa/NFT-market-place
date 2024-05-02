@@ -1,0 +1,51 @@
+.card {
+  background-color: #343444 !important;
+  border-radius: 10px !important;
+}
+.card img {
+  border-radius: 10px !important;
+}
+.card-body {
+  background-color: #343444 !important;
+}
+.card-subtitle {
+  color: rgb(163, 162, 162);
+  font-size: 12px;
+}
+.card-text {
+  font-size: 16px !important;
+  font-weight: 500;
+}
+.btn {
+  border: 1px solid transparent;
+  background: #5142fc !important;
+  color: white !important;
+  transition: 0.5s all;
+  font-size: 16px;
+  border-radius: 20px;
+}
+.btn:hover {
+  cursor: pointer;
+  color: #5142fc !important;
+  border: 1px solid #5142fc !important;
+  fill: #5142fc !important;
+  background: white !important;
+}
+.ri-shopping-bag-line {
+  color: white;
+  transition: 0.5s all;
+}
+.btn:hover .ri-shopping-bag-line {
+  color: #5142fc;
+}
+
+.btn.no-bg {
+  background: transparent !important;
+  border: none !important;
+}
+
+.liveaction .btn.no-bg:hover {
+  background: transparent;
+  border: none;
+  color: white;
+}
