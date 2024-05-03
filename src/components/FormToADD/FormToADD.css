@@ -1,0 +1,29 @@
+.form-group input,
+.form-group input:focus,
+.form-group #Description {
+  background: transparent;
+  color: #cacacc;
+  outline: none;
+  border: 1px solid #373740;
+  padding-left: 15px;
+}
+.form-group input::placeholder {
+  color: #cacacc;
+}
+.form-group #file {
+  padding: 30px;
+  background: transparent;
+}
+.dates {
+  display: flex;
+  justify-content: space-between;
+}
+.dates .form-group {
+  width: 48%;
+}
+.form-group #Description {
+  width: 100%;
+  height: 150px;
+  resize: none;
+  padding: 10px 15px;
+}
