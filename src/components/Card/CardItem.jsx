@@ -12,8 +12,9 @@ import {
 import "./Card.css";
 const CardItem = ({ itemDeatil }) => {
   const { title, currentBid, imgUrl, creatorImg, creator } = itemDeatil;
+  console.log("iii", imgUrl);
   return (
-    <Col lg="3" md="4" sm="5" xs="12">
+    <Col lg="3" md="4" sm="5" xs="12" className="cardWhole">
       <Card className="p-3 cardSection m-2 mb-3 ">
         <CardImg alt="Card image cap" src={imgUrl} top width="100%" />
         <CardBody className="p-0 pt-2">

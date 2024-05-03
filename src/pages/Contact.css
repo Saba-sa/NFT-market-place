@@ -1,0 +1,21 @@
+.contact-container {
+  width: 50% !important;
+}
+.contact-container input {
+  width: 100%;
+  padding: 8px 13px;
+}
+.send {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+}
+.send:focus {
+  border: none;
+  outline: none;
+}
+@media (max-width: 952px) {
+  .contact-container {
+    width: 100% !important;
+  }
+}

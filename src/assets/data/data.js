@@ -26,6 +26,9 @@ export const NFT__DATA = [
     currentBid: 5.89,
     category: "domain-name",
     size: "single-item",
+    minBid: 6,
+    eDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
+    sDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
   },
 
   {
@@ -38,6 +41,9 @@ export const NFT__DATA = [
     currentBid: 5.09,
     category: "music",
     size: "single-item",
+    minBid: 6,
+    eDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
+    sDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
   },
 
   {
@@ -50,6 +56,9 @@ export const NFT__DATA = [
     currentBid: 6.89,
     category: "art",
     size: "single-item",
+    minBid: 6,
+    eDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
+    sDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
   },
 
   {
@@ -62,6 +71,9 @@ export const NFT__DATA = [
     currentBid: 7.89,
     category: "trending-card",
     size: "bundle",
+    minBid: 6,
+    eDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
+    sDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
   },
 
   {
@@ -74,6 +86,9 @@ export const NFT__DATA = [
     currentBid: 4.89,
     category: "trending-card",
     size: "bundle",
+    minBid: 6,
+    eDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
+    sDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
   },
 
   {
@@ -86,6 +101,9 @@ export const NFT__DATA = [
     currentBid: 4.99,
     category: "virtual-world",
     size: "bundle",
+    minBid: 6,
+    eDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
+    sDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
   },
 
   {
@@ -98,6 +116,9 @@ export const NFT__DATA = [
     currentBid: 5.89,
     category: "domain-name",
     size: "single-item",
+    minBid: 6,
+    eDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
+    sDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
   },
 
   {
@@ -110,6 +131,9 @@ export const NFT__DATA = [
     currentBid: 5.89,
     category: "music",
     size: "bundle",
+    minBid: 6,
+    eDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
+    sDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
   },
 
   {
@@ -122,6 +146,9 @@ export const NFT__DATA = [
     currentBid: 5.89,
     category: "art",
     size: "single-item",
+    minBid: 6,
+    eDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
+    sDate: new Date().getUTCMonth / new Date().getDay / new Date().getFullYear,
   },
 ];
 

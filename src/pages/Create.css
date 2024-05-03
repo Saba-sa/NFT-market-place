@@ -22,3 +22,6 @@ select:focus {
   border: none;
   outline: none;
 }
+.preview .cardWhole {
+  width: 100%;
+}
