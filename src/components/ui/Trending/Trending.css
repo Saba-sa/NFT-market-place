@@ -1,4 +1,17 @@
+.trending-section {
+  margin-top: 120px;
+}
 .cardSection {
   border: 10px solid #000;
   /* width: 50% !important; */
+}
+@media (max-width: 370px) {
+  .trending-section {
+    margin-top: 50px;
+  }
+  .trending-section h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }

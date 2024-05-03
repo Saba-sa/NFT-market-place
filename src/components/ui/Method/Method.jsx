@@ -1,11 +1,12 @@
 import React from "react";
 import MethodChild from "../../methods/MethodChild";
 import { Col, Container, Row } from "reactstrap";
+import "./Method.css";
 const Method = () => {
   const Steps_data = [
     {
       title: "Setup your wallet",
-      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit eligendi, facilis voluptatum fugit illum",
+      desc: "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suslit. Sus sasSuscipit eligendi, facilis voluptatum fugit illum",
       icon: "ri-wallet-line",
     },
     {

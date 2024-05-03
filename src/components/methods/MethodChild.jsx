@@ -5,7 +5,7 @@ import "./MethodChild.css";
 
 const MethodChild = ({ title, desc, icon }) => {
   return (
-    <Col lg="3" className="mt-4">
+    <Col lg="3" md="5" sm="6" className="mt-4">
       <div className="single-step-section p-4 rounded-3">
         <span className="icon">
           <i className={`${icon} bg-transparent`}></i>

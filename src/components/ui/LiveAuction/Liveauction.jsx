@@ -11,7 +11,7 @@ const Liveauction = () => {
       <Row className="mb-5">
         <Col
           lg="12"
-          className="d-flex align-items-center justify-content-between"
+          className="d-flex align-items-center justify-content-between liveaction-text"
         >
           <h2>Live Auction</h2>
 
@@ -21,7 +21,7 @@ const Liveauction = () => {
         </Col>
       </Row>
       <Row>
-        <CardGroup className=" bg-transparent">
+        <CardGroup className=" bg-transparent justify-content-center card-group">
           {data.map((item, index) => {
             return <CardItem key={item.id} itemDeatil={item} />;
           })}

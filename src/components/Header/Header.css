@@ -13,6 +13,7 @@
   align-items: center;
   justify-content: space-between;
 }
+
 .nav_list {
   display: flex;
   align-items: center;
@@ -68,4 +69,24 @@
   background: white !important;
   fill: #4b50e6 !important;
   color: #4b50e6;
+}
+@media (max-width: 767px) {
+  .nav_menu {
+    display: none;
+  }
+  .mobile_menu {
+    display: inline-block;
+  }
+  .navigation {
+    padding: 5px 20px;
+  }
+}
+@media (max-width: 370px) {
+  .btn a.wallet-text {
+    display: none !important;
+  }
+  .nav_right .btn {
+    border: none;
+    font-size: 1.4rem;
+  }
 }

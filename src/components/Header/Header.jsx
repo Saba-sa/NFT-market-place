@@ -64,12 +64,17 @@ const Header = () => {
               })}
             </ul>
           </div>
-          <div className="nav_right d-flex align-items-center gap-5">
+          <div className="nav_right d-flex align-items-center gap-2">
             <button className="btn d-flex gap-2 text-white bg-transparent">
               <span className="bg-transparent">
-                <i className="ri-wallet-line"></i>
+                <Link to="/wallet" className=" d-flex align-items-center gap-5">
+                  <i className="ri-wallet-line"></i>
+                </Link>
               </span>
-              <Link to="/wallet" className=" d-flex align-items-center gap-5">
+              <Link
+                to="/wallet"
+                className=" d-flex align-items-center gap-5 wallet-text"
+              >
                 connect wallet
               </Link>
             </button>

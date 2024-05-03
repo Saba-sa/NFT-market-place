@@ -1,0 +1,5 @@
+.bg {
+  height: 40vh;
+  background: url("../assets/images/bg.jpg") center;
+  background-size: cover;
+}

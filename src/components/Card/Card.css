@@ -31,6 +31,7 @@
   fill: #5142fc !important;
   background: white !important;
 }
+
 .ri-shopping-bag-line {
   color: white;
   transition: 0.5s all;
@@ -48,4 +49,30 @@
   background: transparent;
   border: none;
   color: white;
+}
+@media (max-width: 990px) {
+  .card-text {
+    font-size: 12px !important;
+    line-height: 20px;
+  }
+  .creator {
+    line-height: 20px;
+    font-size: 14px !important;
+  }
+  .seller-detail-card,
+  .seller-detail-card-eth {
+    padding: 0 !important  ;
+  }
+}
+@media (max-width: 990px) {
+  .creator-detail {
+    align-items: center;
+  }
+}
+@media (max-width: 370px) {
+  .card-btn {
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
 }

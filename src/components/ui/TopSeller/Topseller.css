@@ -1,3 +1,21 @@
 .seller {
   margin-top: 120px;
 }
+@media (max-width: 575px) {
+  .seller {
+    padding: 0 30px !important;
+  }
+}
+@media (max-width: 370px) {
+  .seller {
+    margin-top: 50px;
+  }
+  .seller .seller-info .col-6 {
+    width: 100%;
+  }
+  .topseller-content h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

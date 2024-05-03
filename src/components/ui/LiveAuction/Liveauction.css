@@ -9,3 +9,30 @@
 a {
   text-decoration: none !important;
 }
+@media (max-width: 990px) {
+  .liveaction {
+    padding: 0 30px !important;
+  }
+  .liveaction .card-group {
+    padding: 0 50px !important;
+  }
+}
+@media (max-width: 470px) {
+  .liveaction .card-group {
+    padding: 0 20px !important;
+  }
+}
+@media (max-width: 470px) {
+  .liveaction .card-group {
+    padding: 0 10px !important;
+  }
+  @media (max-width: 370px) {
+    .liveaction {
+      margin-top: 50px;
+    }
+    .liveaction-text {
+      flex-direction: column;
+      gap: 5px;
+    }
+  }
+}

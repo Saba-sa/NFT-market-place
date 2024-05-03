@@ -7,14 +7,14 @@ const Topseller = () => {
   return (
     <Container className="seller">
       <Row>
-        <Col lg="6" md="6">
-          <div className="topseller-content">
+        <Col lg="6" md="6" xs="12">
+          <div className="topseller-content ">
             <h2>Top Seller</h2>
           </div>
         </Col>
       </Row>
       <Row>
-        <Row className="pt-4">
+        <Row className="pt-4 seller-info">
           {SELLER__DATA.map((item, index) => {
             return <Sellercard key={index} item={item} />;
           })}

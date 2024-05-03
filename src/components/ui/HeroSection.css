@@ -39,3 +39,38 @@
 .hero-img img {
   border-radius: 7px;
 }
+@media (max-width: 990px) {
+  .hero-img {
+    width: 400px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 759px) {
+  .hero-img {
+    width: 100%;
+  }
+}
+@media (max-width: 575px) {
+  .hero-content,
+  .hero-img {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 305px) {
+  .hero-content,
+  .hero-img {
+    padding: 0 5px;
+  }
+}
+@media (max-width: 267px) {
+  .hero-section h2 {
+    font-size: 2rem;
+  }
+  .hero-section .hero-btns {
+    flex-direction: column;
+  }
+  .hero-section .hero-btns button {
+    width: 100%;
+    justify-content: center;
+  }
+}

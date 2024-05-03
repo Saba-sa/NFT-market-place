@@ -5,9 +5,9 @@ import { NFT__DATA } from "../../../assets/data/data";
 import "./Trending.css";
 const Trending = () => {
   return (
-    <Container>
+    <Container className="trending-section">
       <h2>Trending</h2>
-      <Row>
+      <Row className="mt-5">
         <CardGroup className=" bg-transparent flex-wrap">
           {NFT__DATA.slice(1, 9).map((data) => {
             return <CardItem key={data.id} itemDeatil={data} />;
